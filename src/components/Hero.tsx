@@ -1,5 +1,5 @@
 import { SITE } from "../site";
-import GensetVisual from "./GensetVisual";
+import GensetPhoto from "./GensetPhoto";
 
 export default function Hero() {
   return (
@@ -53,7 +53,12 @@ export default function Hero() {
         </div>
 
         <div className="border border-white/10 bg-ink-900">
-          <GensetVisual label="Representative genset image" />
+          <GensetPhoto
+            file="genset-hero.jpg"
+            alt="Yellow heavy-duty diesel generator set with canopy doors open in a warehouse — sample supplier photo"
+            label="Sample photo"
+            eager
+          />
           <div className="flex items-center justify-between gap-3 border-t border-white/10 px-4 py-3 text-sm">
             <p className="text-slate-300">
               <strong className="text-white">25kVA – 1000kVA</strong> · Project &amp; bulk requirements
