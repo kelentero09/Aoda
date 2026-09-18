@@ -23,7 +23,7 @@ export default function Navbar() {
       </div>
 
       <nav aria-label="Main navigation" className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <a href="#home" className="flex items-center gap-2.5" aria-label="Aoda Gensets PH — home">
+        <a href="#home" className="flex items-center gap-2.5" aria-label={`${SITE.brand} — home`}>
           <span className="flex h-9 w-9 items-center justify-center bg-power-500 font-black text-ink-900" aria-hidden="true">
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
               <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" />
@@ -31,7 +31,7 @@ export default function Navbar() {
           </span>
           <span className="leading-tight">
             <span className="block text-[17px] font-extrabold tracking-tight text-white">
-              Aoda Gensets PH
+              {SITE.brand}
             </span>
             <span className="block text-[11px] font-medium uppercase tracking-widest text-power-400">
               Direct Supplier &amp; Importer

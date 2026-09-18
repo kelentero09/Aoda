@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-ink-950 text-slate-300">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-3">
         <div>
-          <p className="text-lg font-extrabold text-white">Aoda Gensets PH</p>
+          <p className="text-lg font-extrabold text-white">{SITE.brand}</p>
           <p className="mt-1 text-xs font-bold uppercase tracking-widest text-power-400">
             {SITE.positioning}
           </p>
@@ -40,7 +40,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4 text-xs text-slate-500 sm:flex-row sm:justify-between">
-          <p>© {new Date().getFullYear()} Aoda Gensets PH. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {SITE.brand}. All rights reserved.</p>
           <p>{SITE.tagline}</p>
         </div>
       </div>

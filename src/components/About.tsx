@@ -10,12 +10,12 @@ export default function About() {
             Your Direct Generator Set Supplier &amp; Importer
           </h2>
           <p className="mt-4 leading-relaxed text-slate-600">
-            Aoda Gensets PH provides brand-new generator sets for businesses, construction
+            {SITE.brand} provides brand-new generator sets for businesses, construction
             projects, commercial establishments, factories, facilities, and residential
             backup power requirements.
           </p>
           <p className="mt-3 leading-relaxed text-slate-600">
-            With generator sets ranging from 25kVA to 1000kVA, Aoda Gensets PH provides
+            With generator sets ranging from 25kVA to 1000kVA, {SITE.brand} provides
             direct supplier options for project and bulk requirements, with customized
             quotations based on customer needs.
           </p>

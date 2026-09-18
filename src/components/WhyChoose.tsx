@@ -1,3 +1,5 @@
+import { SITE } from "../site";
+
 const POINTS = [
   "Direct Supplier / Importer",
   "Competitive Pricing",
@@ -17,7 +19,7 @@ export default function WhyChoose() {
         <div>
           <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-power-400">Why Choose Us</p>
           <h2 id="why-h" className="mt-2 text-3xl font-black tracking-tight md:text-4xl">
-            Why Choose Aoda Gensets PH
+            Why Choose {SITE.brand}
           </h2>
           <p className="mt-3 text-slate-300">
             Direct supply. Straightforward pricing. Units matched to your actual load and site requirements.

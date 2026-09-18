@@ -1,15 +1,15 @@
 export const SITE = {
-  brand: "Aoda Gensets PH",
+  brand: "Sample Gensets Co.",
   positioning: "Direct Generator Set Supplier & Importer",
   tagline: "Your Power. Our Supply. Direct.",
-  phoneDisplay: "0955 829 8901",
-  phoneHref: "tel:+639558298901",
-  viberDisplay: "0967 451 2712",
-  // Viber deep link: opens chat with PH number (63 + number without leading 0)
-  viberHref: "viber://chat?number=%2B639674512712",
-  locations: ["Kawit, Cavite", "Mexico, Pampanga"],
-  contactPerson: "Ms. Keyl",
-  contactRole: "Senior Sales Executive",
+  phoneDisplay: "0900 000 0000",
+  phoneHref: "tel:+639000000000",
+  viberDisplay: "0900 000 0000",
+  // Viber deep link placeholder — replace with the real sales number.
+  viberHref: "viber://chat?number=%2B639000000000",
+  locations: ["Sample Location 1", "Sample Location 2"],
+  contactPerson: "Sample Contact",
+  contactRole: "Sales Executive",
   range: "25kVA to 1000kVA",
 } as const;
 

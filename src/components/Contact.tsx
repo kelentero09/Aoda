@@ -97,7 +97,7 @@ export default function Contact() {
               </label>
               <label className="block">
                 <span className="mb-1 block text-xs font-bold uppercase tracking-widest text-slate-600">Project Location *</span>
-                <input required name="location" placeholder="e.g. Kawit, Cavite" className={inputCls} />
+                <input required name="location" placeholder="e.g. City, Province" className={inputCls} />
               </label>
               <label className="block sm:col-span-2">
                 <span className="mb-1 block text-xs font-bold uppercase tracking-widest text-slate-600">Message</span>

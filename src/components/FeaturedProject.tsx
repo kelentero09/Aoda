@@ -1,15 +1,11 @@
-import GensetPhoto from "./GensetPhoto";
+import GensetVisual from "./GensetVisual";
 
 export default function FeaturedProject() {
   return (
     <section id="projects" className="scroll-mt-24 border-y border-slate-200 bg-white">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-16 lg:grid-cols-2 lg:items-center">
         <div className="border border-slate-200">
-          <GensetPhoto
-            file="project-100kva-ats.jpg"
-            alt="Canopy generator set installed indoors beside electrical control panels — sample project photo"
-            label="Sample project photo"
-          />
+          <GensetVisual label="Representative genset photo — not an actual installation" />
         </div>
         <div>
           <p className="inline-block bg-emerald-600 px-3 py-1 text-xs font-extrabold uppercase tracking-widest text-white">

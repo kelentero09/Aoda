@@ -1,6 +1,10 @@
-# Aoda Gensets PH — Direct Generator Set Supplier & Importer
+# Generator Set Supplier Website (Demo Template)
 
-Static demo website. React + Vite + TypeScript + Tailwind. No backend.
+Static demo website for a generator set supplier business. React + Vite + TypeScript + Tailwind. No backend.
+
+> This is a reusable reference template with fictional demo content
+> ("Sample Gensets Co.", placeholder contacts). Rebrand via `src/site.ts`
+> before showing or deploying for a real business.
 
 ## Develop
 
@@ -40,6 +44,7 @@ Then set **Settings → Pages → Source: gh-pages branch**.
 
 ## Content
 
-All content lives in `src/` — see `src/site.ts` for phone numbers, locations, and nav.
+All content lives in `src/` — see `src/site.ts` for brand name, phone numbers, locations, and nav.
 Images: built-in SVG placeholders via `src/components/GensetVisual.tsx`.
-Drop real photos into `public/images/` (see its README) when available.
+Drop real photos into `public/images/` (see its README) when available —
+`src/components/GensetPhoto.tsx` loads them with automatic placeholder fallback.

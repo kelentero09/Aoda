@@ -5,7 +5,7 @@ export default function GensetVisual({ label = "Representative image" }: { label
   return (
     <div
       role="img"
-      aria-label={`${label} — generic generator set illustration, not an actual Aoda installation`}
+      aria-label={`${label} — generic generator set illustration, not an actual client installation`}
       className="relative flex aspect-[16/10] w-full items-center justify-center overflow-hidden bg-ink-800"
     >
       <div className="absolute inset-0 bg-blueprint" aria-hidden="true" />
